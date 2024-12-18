@@ -1,41 +1,23 @@
-120 Years of Olympic Data Analysis
-This project showcases an in-depth exploration of over a century of Olympic Games data using SQL. It demonstrates the ability to handle complex queries, extract meaningful insights, and optimize database performance.
+Olympic Games Medal Analysis
+This project is a data analysis initiative focused on the Olympic Games dataset. The analysis involves querying and manipulating the data to derive insights about medal counts, winners, and performance trends across different Olympic Games.
 
-📂 Project Overview
-The 120 Years of Olympic Data Analysis project focuses on analyzing historical data of the Olympic Games from 1896 to 2016. This includes athletes, events, participating nations, and medals. The project utilizes SQL to query, analyze, and derive insights from the dataset.
+The main objective of this project is to demonstrate the use of SQL queries for efficient data analysis and visualization in the context of sports.
 
-🔍 Features and Queries Explored
-Data Cleaning:
+Dataset
+The dataset includes information about:
 
-Ensured consistency in athlete names, event titles, and country codes.
-Handled missing values for medal data and participant details.
-Exploratory Data Analysis (EDA):
+Athletes participating in different Olympic events
+Medal categories: Gold, Silver, and Bronze
+Games information: Year, Season (Summer/Winter), and Event details
+Athlete demographics (age, gender, nationality)
 
-Distribution of medals by country, year, and event.
-Identified top-performing countries and athletes.
-Advanced SQL Queries:
+Key Features
+Medal Distribution Analysis: Determine the count of Gold, Silver, and Bronze medals for each game.
+Top Performers: Identify the best-performing athletes and countries.
+Game Trends: Analyze performance trends across different years and sports.
+Setup and Usage
 
-Ranking athletes by medal count using RANK() and DENSE_RANK().
-Calculating year-over-year trends in country participation.
-Identifying sports with the most significant growth over decades.
-Statistical Insights:
-
-Median age of athletes per event.
-Average medals won by countries per Olympic Games.
-Percentage of female athletes in each year.
-Visualization Prep:
-
-Prepared aggregate tables for Power BI/Tableau for medal trends and country performance dashboards.
-🛠️ Technologies Used
-SQL Engine: PostgreSQL/MySQL (specify which was used)
-Dataset: Kaggle - 120 Years of Olympic Data
-Tools:
-SQL Workbench/pgAdmin
-Jupyter Notebook (if Python was used for additional analysis)
-
-🚀 Key Learning Outcomes
-Gained hands-on experience with window functions like RANK(), ROW_NUMBER(), and NTILE().
-Enhanced skills in data aggregation, filtering, and grouping.
-Developed optimized queries using indexes, subqueries, and CTEs.
-Improved understanding of data modeling and database normalization.
-
+Technologies Used
+Database: PostgreSQL
+Query Language: SQL
+Tools: pgAdmin, DBeaver (optional for query execution)
